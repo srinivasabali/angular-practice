@@ -1,0 +1,31 @@
+p{
+  font-size: 13px;
+  margin: 0;
+  display: flex;
+}
+.modal-header,.modal-footer{
+  padding: 8px 16px;
+  border: 0;
+}
+input,select{
+    height: 30px;
+    margin-bottom: 6px;
+    margin-left: auto;
+    width: 150px;
+}
+.modal-footer button{
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+}
+p span{
+  margin-left:auto;
+  }
+  input.form-control{
+  width:125px;
+  }
+
+  .modal-header button:focus{
+  outline:none;
+  box-shadow: none;
+  }

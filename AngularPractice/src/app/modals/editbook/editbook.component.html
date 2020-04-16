@@ -1,0 +1,17 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modal-basic-title">{{booktitle}} Employee</h5>
+  <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="bookGroup">
+  <p><b>Employee Name: &nbsp;</b><input formControlName="title" type="text"/></p>
+         <p><b>Location: &nbsp;</b><input formControlName="author" type="text"/></p>
+         <p><b>Email: &nbsp;</b><input type="number" formControlName="isbn"/></p>
+         <p><b>Mobile: &nbsp;</b><input type="text" formControlName="publisher"/></p>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary" (click)="saveDetails()">Submit</button>
+</div>
